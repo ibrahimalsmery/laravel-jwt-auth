@@ -1,5 +1,4 @@
-**Laravel JWT auth server**
-*
+## Laravel JWT auth server
 
 ## [POST] /api/auth/register
 
