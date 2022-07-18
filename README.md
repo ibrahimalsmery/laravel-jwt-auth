@@ -14,11 +14,11 @@
     	"password":"pwd"
     }
 ## Two way to send token 
-
+    //in headers
     {
     	"Authorization":"Bearer <jwt_token>"
     }
-    
+    // in route query 
 	/api/me?token=<JWT_TOKEN>
 ## [POST] /api/auth/me?token=<jwt_token>
 
