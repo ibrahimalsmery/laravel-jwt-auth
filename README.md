@@ -1,8 +1,8 @@
 ## Laravel JWT auth server
     composer install 
     cp .env.example .env
+    php artisan key:generate
     php artisan jwt:secret
-    //set database name
     php artisan migrate
     php artisan serve
 
